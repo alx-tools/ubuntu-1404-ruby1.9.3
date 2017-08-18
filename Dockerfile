@@ -2,7 +2,6 @@ FROM ubuntu:14.04
 MAINTAINER Guillaume Salva <guillaume@holbertonschool.com>
 
 RUN apt-get update
-RUN apt-get upgrade
 
 # curl/wget/git
 RUN apt-get install -y curl wget git
